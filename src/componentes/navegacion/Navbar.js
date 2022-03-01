@@ -7,7 +7,7 @@ function navbar() {
     <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
-  <img src="/abuela.png" alt="" width="70" height="74" class="d-inline-block align-text-top"></img>
+  <img src="/abuela.png" alt="" width="70" height="74" className="d-inline-block align-text-top"/>
     <Link className="navbar-brand" to="/">La Nona Dora
     </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
