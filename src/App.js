@@ -12,24 +12,20 @@ function App() {
 
 
       <BrowserRouter>
-        <Navbar>
+        <Navbar/>
           <Routes>
             <Route path='/'>
-              <Route path='/' index element={<Inicio/>}/>
+              <Route index element={<Inicio/>}/>
             </Route>
 
             <Route path='/Productos'>
-              <Route path='/' index element={<Items/>}/>
+              <Route index element={<Items/>}/>
             </Route>
 
             <Route path='/Contacto'>
-              <Route path='/' index element={<Contacto/>}/>
+              <Route index element={<Contacto/>}/>
             </Route>
-            {/* <Route path='/' exact component={inicio}/>
-            <Route path='/Items' exact component={items}/>
-            <Route path='/Contacto' exact component={contacto}/> */}
           </Routes>
-        </Navbar>
       </BrowserRouter>
     
     </div>
